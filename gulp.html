@@ -1,0 +1,1 @@
+var htmlbeautify = require('gulp-html-beautify'); gulp.task('htmlbeautify', function() { var options = { {indentSize: 2} }; gulp.src('./src/*.html') .pipe(htmlbeautify(options)) .pipe(gulp.dest('./public/')) })

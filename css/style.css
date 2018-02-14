@@ -1,43 +1,26 @@
-/* 
-primary: #f44336
-p-light: #ff7961
-p-dark: #ba000d
-secondary: #ffff8d
-s-light: #ffffbf
-p-light: #cacc5d 
-*/
 /* global syles */
-
-body{
-    background-color: #f44336;
-
+body {
+  background-color: #f44336;
 }
-
 h1,
 h2 {
-    text-align: center;
-    font-family: 'Flamenco', cursive;
+  text-align: center;
+  font-family: 'Flamenco', cursive;
 }
-
-h1{font-size: 72px;
+h1 {
+  font-size: 72px;
 }
-
 li {
-    display: inline-block;
+  display: inline-block;
 }
-
 /*header */
-
-
-header li {
-    margin:0 10px;
+label {
+  color: #ffff8d;
 }
-
-header li:first-of-type
-
-/*footer styles*/
-
-footer a {
-    font-size: 64px;
-    
+header li {
+  margin: 0 10px;
+}
+header li:first-of-type footer a {
+  font-size: 64px;
+  color: #ffff8d;
 }
